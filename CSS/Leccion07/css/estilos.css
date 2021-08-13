@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Rancho&font-effect-fire-animation|3d-float);
+
+/*@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Style+Script&display=swap');*/
+
+/* Pagina para los efectos:
+https://developers.google.com/fonts/docs/getting_started
+
+https://fonts.google.com/*/
+
+h1{
+    color: #ef4767;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    font-family: 'fire-animation', cursive;
+}
+.caja1{
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float:left; /*pone las cajas hacia la izquierda*/
+    
+}
+.caja1.heebo{
+    background-color: #54189a;
+    font-size: 1em; /*16px/16 = 1 em tamaño de letra*/
+    /*orden de poner el font: font-style, font-variant, font-weight, font-size/line-height font-family;*/
+    font: italic small-caps bolder 20px 'Heebo', sans-serif;
+}
+.fuente_heebo{
+    font-family: 'Heebo', sans-serif; /*font-family tipo de fuente */
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3vw; /*view width (viewport es el tamaño de nuestra pantalla) 1vw = 1%*/
+}
+.caja1.georgia{
+    background-color: #6028a1bb;
+}
+.fuente_georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.caja1.arial{
+    background-color: #00b4d8;
+}
+.fuente_arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja1.verdana{
+    background-color: #2c9dcad2;
+}
+.fuente_verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.caja1.courier{
+    background-color: burlywood;
+}
+.fuente_courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+.caja1.lucida{
+    background-color: 	#FFB6C1;
+}
+.fuente_lucida{
+    font-family: 'Lucida Handwriting';
+}
+

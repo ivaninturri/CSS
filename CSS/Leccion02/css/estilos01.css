@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+.rojo{
+    border: 10px solid firebrick;
+}
+.rosa{
+    border: 10px dashed rgb(255, 105, 180); /*dashed es la linea puntiada */
+}
+.amarillo{
+    border: 10px double #ffd700; /*double es doble linea*/
+}
+.azul{
+    border: 10px dotted hsl(174, 72%, 56%); /*pone bordes con puntos*/
+}
+.verde{
+    border: 10px groove rgb(41, 109, 41);
+}
+
+/* Otro tipo de bordes
+groove
+ridge
+inset
+outset pone bordes tipo marco*/

@@ -1,0 +1,8 @@
+
+#titulo{       /*el # se usa con el id=""*/
+    text-align: center;
+    color: aqua;
+}
+p.parrafo{    /*p.ejemplo es un class que se  usa solamente con los tipo p y esto se puede hacer ocn cualquiera ej div.ejemplo*/
+    color: chocolate;
+}

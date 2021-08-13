@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    color: #457b9d
+}
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed #a8dadc;
+}
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    background-color: #a8dadc;
+    border: 1px solid #457b9d;
+    height: 50px;
+    padding: 5px;
+    display: inline-block;
+}
+.menu{
+    list-style-type: none;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    background-color: #e63946;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: beige
+}
+
+
+
+/*Tipo de posicionamiento: static (estatico), relative(relativo), fixed(ajustado), absolute(absoluto), sticky(pegajozo)*/
+
+/*posicion por default es STATIC
+    posicion RELATIVE mueve segun los valores que indique ej 
+    top:100px 
+    left: 50px para quew se mueva para la derecha
+    bottom :10px para que se mueva para arriba
+    right:50px para que se mueva para la izquierda
+    posicion FIXED se coloca en manera relativa a la pantalla disponible en nuestra pagina, y se mantiene de manera fija.
+    posicion ABSOLUTE se coloca de manera fija en el lugar donde lo pongas
+    posicion STICKY es de forma relativa hasta que sale de pantalla, que se transforma en fixed
+    */
+    /*overflow es una propiedad que solo funciona si hay unos determinados pixeles de height(alto): visible; es lo que viene por default*/
+    /*overflow: hidden; oculta todo lo que sale del elemento div*/
+    /*overflow: scroll; se agrega una barra de scroll en todo el comentario*/
+    /*overflow: auto; se agrega barra de scroll si es necesario*/

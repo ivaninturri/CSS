@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Palette+Mosaic&display=swap');
+
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.contenedor{
+    position: relative;
+    width: 30%;
+    border: 3px dashed greenyellow;
+    margin: auto;
+}
+img.imagen{
+    width: 100%;
+    opacity: 0.2;
+}
+div.centro{
+    position: absolute;
+    top: 50%;
+    /*border: 1px solid blue;*/
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*Tipo de posicionamiento: static (estatico), relative(relativo), fixed(ajustado), absolute(absoluto), sticky(pegajozo)*/
+
+/*posicion por default es STATIC
+    posicion RELATIVE mueve segun los valores que indique ej 
+    top:100px 
+    left: 50px para quew se mueva para la derecha
+    bottom :10px para que se mueva para arriba
+    right:50px para que se mueva para la izquierda
+    posicion FIXED se coloca en manera relativa a la pantalla disponible en nuestra pagina, y se mantiene de manera fija.
+    posicion ABSOLUTE se coloca de manera fija en el lugar donde lo pongas
+    posicion STICKY es de forma relativa hasta que sale de pantalla, que se transforma en fixed
+    */

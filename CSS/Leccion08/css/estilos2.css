@@ -1,0 +1,23 @@
+/*Lugar para ver los Iconos:
+https://fonts.google.com/icons
+https://icons.getbootstrap.com
+https://ionic.io/ionicons
+*/
+
+h1{
+    text-align: center;
+    color: crimson;
+}
+div{
+    padding: 15px;
+    margin: auto;
+    max-width: 400px; /*la cantidad de maximo de ancho*/
+}
+.icono_azul{
+    font-size: 2.5em; 
+    color:cornflowerblue;
+}
+.icono_rojo{
+    font-family: 3em;
+    color: crimson;
+}

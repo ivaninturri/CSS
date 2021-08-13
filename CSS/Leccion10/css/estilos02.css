@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.contenedor{
+    width: 30%;
+    height: 100px;
+    overflow: auto;
+    /*overflow es una propiedad que solo funciona si hay unos determinados pixeles de height(alto): visible; es lo que viene por default*/
+    /*overflow: hidden; oculta todo lo que sale del elemento div*/
+    /*overflow: scroll; se agrega una barra de scroll en todo el comentario*/
+    /*overflow: auto; se agrega barra de scroll si es necesario*/
+}
+div.contenedor.flotado.contenedor1{
+    float: left;
+    border: 3px dashed greenyellow;
+}
+div.contenedor.flotado.contenedor2{
+    border: 3px dashed cornflowerblue;
+    float: right; /*sirve para flotar un elemento para donde elijamos */
+}
+div.contenedor.flotado.contenedor3{
+    clear: both; /*el clear limpia los lados que tengas elementos flotados*/
+    border: 3px dashed darkorange;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+/*Tipo de posicionamiento: static (estatico), relative(relativo), fixed(ajustado), absolute(absoluto), sticky(pegajozo)*/
+
+/*posicion por default es STATIC
+    posicion RELATIVE mueve segun los valores que indique ej 
+    top:100px 
+    left: 50px para quew se mueva para la derecha
+    bottom :10px para que se mueva para arriba
+    right:50px para que se mueva para la izquierda
+    posicion FIXED se coloca en manera relativa a la pantalla disponible en nuestra pagina, y se mantiene de manera fija.
+    posicion ABSOLUTE se coloca de manera fija en el lugar donde lo pongas
+    posicion STICKY es de forma relativa hasta que sale de pantalla, que se transforma en fixed
+    */

@@ -1,0 +1,17 @@
+body{
+    color: cornsilk;
+    background-attachment: fixed; /*deja quieta las letras y no se mueve con el fondo*/
+    /*background-color: dodgerblue;
+    background-repeat: no-repeat;
+    background-image: url("/img/fondo1.jpg");
+    se simplifica todo estas opcion solamente poniendo: Background: */
+    background: dodgerblue url(/img/fondo4.jpg);
+    background-size: 100%;
+    
+}
+h1{
+    background-color:#1DD83F ;
+    text-align: center;
+}
+
+

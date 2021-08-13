@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 7px;
+    color: #457b9d;
+}
+div.contenedor.descendiente p{  /*al dejar un espacio entre decendiente y la letra p, indica que aplica a todo lo que sea parrafo o el atributo que pongamos*/
+    background-color: #fdffb6;
+}
+div.contenedor.child>p{ /*poniendo el > p va a poner solamente lo que son hijos directos*/
+     background-color: #ff66ff;
+}
+div.contenedor.adyacente + p{ /* poniendo el +, Selecciona solamente los elementos parrafos que esten despues del div*/
+
+}
+
